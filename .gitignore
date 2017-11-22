@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+/3D3Project/External Dependencies
+/3D3Project/MainApplication/Intermediate/Win32/MainApplication.tlog
+/3D3Project/MainApplication/Intermediate/Win32
+/3D3Project/Window/Intermediate/Win32/Window.tlog
+/3D3Project/Window/Intermediate/Win32
+/3D3Project/Build/lib/Win32
+/3D3Project/Debug
+/3D3Project/.vs/3D3Project
