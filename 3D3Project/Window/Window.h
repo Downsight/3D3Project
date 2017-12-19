@@ -13,9 +13,12 @@ namespace D3DPROJECT
 		{
 		public:
 			Window();
-			~Window();
+			~Window() override;
 			void Initialize(const InitializeInfo& info) override;
 			void Shutdown() override;
+			void* GetWindowHandle() override;
+			int GetHeight() override;
+			int GetWidth() override;
 		private:
 			SDL_Window* window = nullptr;
 			InitializeInfo InitInfo;

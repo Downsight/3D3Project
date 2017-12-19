@@ -1,0 +1,31 @@
+﻿  RenderD12.cpp
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.h(62): warning C4229: anachronism used: modifiers on data are ignored
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd12.h(67): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD12::VertexInputType' when no variable is declared
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd12.cpp(478): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd12.cpp(523): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+  IRenderer.cpp
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd11.h(49): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD11::VertexInputType' when no variable is declared
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.h(62): warning C4229: anachronism used: modifiers on data are ignored
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd12.h(67): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD12::VertexInputType' when no variable is declared
+  RenderD11.cpp
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd11.h(49): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD11::VertexInputType' when no variable is declared
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd11.cpp(168): warning C4101: '_worldInstance': unreferenced local variable
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd11.cpp(171): warning C4101: 'Scale': unreferenced local variable
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd11.cpp(170): warning C4101: 'Translation': unreferenced local variable
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd11.cpp(169): warning C4101: '_worldRotation': unreferenced local variable
+  ApiDirectX.cpp
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apidirectx.cpp(116): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apidirectx.cpp(117): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  ApiD12.cpp
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.h(62): warning C4229: anachronism used: modifiers on data are ignored
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.cpp(142): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.cpp(201): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.cpp(219): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\apid12.cpp(222): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+  Generating Code...
+c:\users\andreas persson\desktop\3d3project6\3d3project\renderer\renderd12.cpp(238): warning C4715: 'GetDXGIFormatBitsPerPixel': not all control paths return a value
+     Creating library C:\Users\Andreas Persson\Desktop\3D3Project6\3D3Project\Build\lib\Win32\RendererD.lib and object C:\Users\Andreas Persson\Desktop\3D3Project6\3D3Project\Build\lib\Win32\RendererD.exp
+DirectXTKD.lib(pch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DirectXTKD.lib(pch.obj)' or at 'C:\Users\Andreas Persson\Desktop\3D3Project6\3D3Project\Build\lib\Win32\DirectXTK.pdb'; linking object as if no debug info
+DirectXTKD.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DirectXTKD.lib(WICTextureLoader.obj)' or at 'C:\Users\Andreas Persson\Desktop\3D3Project6\3D3Project\Build\lib\Win32\DirectXTK.pdb'; linking object as if no debug info
+  Renderer.vcxproj -> C:\Users\Andreas Persson\Desktop\3D3Project6\3D3Project\Build\lib\Win32\RendererD.dll
+  Renderer.vcxproj -> C:\Users\Andreas Persson\Desktop\3D3Project6\3D3Project\Build\lib\Win32\RendererD.pdb (Partial PDB)

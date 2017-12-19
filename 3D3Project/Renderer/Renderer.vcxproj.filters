@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\D11">
+      <UniqueIdentifier>{2378f9e5-2e8f-4e3a-8121-ab689d44a1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D11">
+      <UniqueIdentifier>{a7f9c08b-e3bb-4a3f-ae53-018afb4d1d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\D12">
+      <UniqueIdentifier>{90e12106-5f22-41e6-9494-f6bcbcdb0a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D12">
+      <UniqueIdentifier>{552b7d08-31f4-4deb-a54a-c4fea2ea4466}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApiDirectX.h">
+      <Filter>Header Files\D11</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderD11.h">
+      <Filter>Header Files\D11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\includes\Renderer\IRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderD12.h">
+      <Filter>Header Files\D12</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiD12.h">
+      <Filter>Header Files\D12</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApiDirectX.cpp">
+      <Filter>Source Files\D11</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderD11.cpp">
+      <Filter>Source Files\D11</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderD12.cpp">
+      <Filter>Source Files\D12</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiD12.cpp">
+      <Filter>Source Files\D12</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

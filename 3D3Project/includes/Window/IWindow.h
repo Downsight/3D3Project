@@ -25,9 +25,12 @@ namespace D3DPROJECT
 		{
 		public:
 			IWindow();
-			virtual ~IWindow();
+			virtual ~IWindow() = 0;
 			virtual void Initialize(const InitializeInfo& info) = 0;
 			virtual void Shutdown() = 0;
+			virtual void* GetWindowHandle() = 0;
+			virtual int GetHeight() = 0;
+			virtual int GetWidth() = 0;
 		private:
 
 		};
