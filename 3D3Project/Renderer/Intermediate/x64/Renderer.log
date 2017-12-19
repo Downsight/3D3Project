@@ -1,0 +1,37 @@
+﻿  RenderD12.cpp
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\apid12.h(62): warning C4229: anachronism used: modifiers on data are ignored
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.h(67): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD12::VertexInputType' when no variable is declared
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.cpp(74): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.cpp(99): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.cpp(145): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.cpp(150): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.cpp(445): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  IRenderer.cpp
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.h(49): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD11::VertexInputType' when no variable is declared
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\apid12.h(62): warning C4229: anachronism used: modifiers on data are ignored
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.h(67): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD12::VertexInputType' when no variable is declared
+  RenderD11.cpp
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.h(49): warning C4091: 'typedef ': ignored on left of 'D3DPROJECT::RENDERER::RenderD11::VertexInputType' when no variable is declared
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(58): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(85): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(96): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(116): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(128): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(153): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(168): warning C4101: '_worldInstance': unreferenced local variable
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(171): warning C4101: 'Scale': unreferenced local variable
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(170): warning C4101: 'Translation': unreferenced local variable
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(169): warning C4101: '_worldRotation': unreferenced local variable
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd11.cpp(234): warning C4244: 'initializing': conversion from 'SIZE_T' to 'int', possible loss of data
+  ApiDirectX.cpp
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\apidirectx.cpp(116): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\apidirectx.cpp(117): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  ApiD12.cpp
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\apid12.h(62): warning C4229: anachronism used: modifiers on data are ignored
+  Generating Code...
+c:\users\andreas persson\desktop\working3d3project\3d3project\renderer\renderd12.cpp(244): warning C4715: 'GetDXGIFormatBitsPerPixel': not all control paths return a value
+     Creating library C:\Users\Andreas Persson\Desktop\Working3D3Project\3D3Project\Build\lib\x64\RendererD.lib and object C:\Users\Andreas Persson\Desktop\Working3D3Project\3D3Project\Build\lib\x64\RendererD.exp
+DirectXTKD.lib(pch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DirectXTKD.lib(pch.obj)' or at 'C:\Users\Andreas Persson\Desktop\Working3D3Project\3D3Project\Build\lib\x64\DirectXTK.pdb'; linking object as if no debug info
+DirectXTKD.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DirectXTKD.lib(WICTextureLoader.obj)' or at 'C:\Users\Andreas Persson\Desktop\Working3D3Project\3D3Project\Build\lib\x64\DirectXTK.pdb'; linking object as if no debug info
+  Renderer.vcxproj -> C:\Users\Andreas Persson\Desktop\Working3D3Project\3D3Project\Build\lib\x64\RendererD.dll
+  Renderer.vcxproj -> C:\Users\Andreas Persson\Desktop\Working3D3Project\3D3Project\Build\lib\x64\RendererD.pdb (Partial PDB)
